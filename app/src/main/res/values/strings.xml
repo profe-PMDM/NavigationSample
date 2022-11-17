@@ -3,4 +3,5 @@
     <string name="hello_first_fragment">Hello First Fragment</string>
     <string name="hello_second_fragment">Hello Second fragment</string>
     <string name="hello_third_fragment">Hello Third Fragment</string>
+    <string name="go_to_second_fragment">Go to Second Fragment</string>
 </resources>
