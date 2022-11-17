@@ -27,7 +27,7 @@ class SecondFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val btn = binding.button
         btn.setOnClickListener {
-            val name = binding.name.toString()
+            val name = binding.name.text.toString()
             val action = SecondFragmentDirections
                 .actionSecondFragmentToThirdFragment(name)
             this.findNavController().navigate(action)
