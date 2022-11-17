@@ -25,5 +25,10 @@
     <fragment
         android:id="@+id/thirdFragment"
         android:name="es.davidcorcuera.navigationsamplelesson6.ThirdFragment"
-        android:label="Fragmento 3" />
+        android:label="Fragmento 3" >
+        <argument
+            android:name="your_name"
+            app:argType="string"
+            android:defaultValue="Anónimo" />
+    </fragment>
 </navigation>
