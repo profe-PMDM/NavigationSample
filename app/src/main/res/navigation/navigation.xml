@@ -18,7 +18,9 @@
         android:label="SecondFragment" >
         <action
             android:id="@+id/action_secondFragment_to_thirdFragment"
-            app:destination="@id/thirdFragment" />
+            app:destination="@id/thirdFragment"
+            app:popUpTo="@id/secondFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/thirdFragment"
