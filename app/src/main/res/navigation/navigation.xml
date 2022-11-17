@@ -21,6 +21,10 @@
             app:destination="@id/thirdFragment"
             app:popUpTo="@id/secondFragment"
             app:popUpToInclusive="true" />
+        <argument
+            android:name="your_name"
+            app:argType="string"
+            android:defaultValue="Anónimo" />
     </fragment>
     <fragment
         android:id="@+id/thirdFragment"
