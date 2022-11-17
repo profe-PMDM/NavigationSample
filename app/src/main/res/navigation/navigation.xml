@@ -15,5 +15,13 @@
     <fragment
         android:id="@+id/secondFragment"
         android:name="es.davidcorcuera.navigationsamplelesson6.SecondFragment"
-        android:label="SecondFragment" />
+        android:label="SecondFragment" >
+        <action
+            android:id="@+id/action_secondFragment_to_thirdFragment"
+            app:destination="@id/thirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="es.davidcorcuera.navigationsamplelesson6.ThirdFragment"
+        android:label="ThirdFragment" />
 </navigation>
